@@ -1,0 +1,13 @@
+<h1>This is the recipe index page</h1>
+
+<div class="list-group">
+  <% @recipes.each do |recipe| %>
+    <div class="list-group-item">
+      <ul class="recipe">
+        <li><%= link_to(recipe.name, recipe_path(recipe.id))%></li>
+        <li><%= link_to('DELETE', recipe_path(recipe.id), method: :delete)%></li>
+        <li><%= link_to('EDIT', edit_recipe_path(recipe.id))%></li>
+      </ul>
+    </div>
+  <% end %>
+</div>
