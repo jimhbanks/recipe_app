@@ -6,5 +6,15 @@ body {
 
 .h1 {
   font-family: 'Amatic SC';
-  font-size: 24px;
+  font-size: 44px;
+}
+
+a:hover, a:visited, a:link, a:active {
+  color: black;
+  text-decoration: none;
+
+}
+
+.boxhead a {
+  text-decoration: none;
 }

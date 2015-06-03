@@ -1,0 +1,10 @@
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+p {
+  font-size: 60px;
+  float: right;
+}

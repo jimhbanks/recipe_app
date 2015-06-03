@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PlanetsApp</title>
+  <title>EAT SOMME FOOD FOOL</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
+
+<body class="<%= params[:action]%>”>
 <header>
   <nav>
-    <li><%= link_to('Recipes', recipes_path)%></li>
+    <li><a href ><%= link_to('Recipes', recipes_path)%></a></li>
     <li><%= link_to('New Receipe  ', new_recipe_path)%></li>
   </nav>
 </header>
 
-<div class="leftwrapper">
-</div>
+
 
 
 

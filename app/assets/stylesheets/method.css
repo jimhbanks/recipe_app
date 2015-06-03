@@ -1,16 +1,10 @@
-.method {
+/*.method {
 
   width: 700px;
   height: 200px;
   color: rgba(255, 255, 255, 0.5);
   float: right;
   margin-bottom: 400px;
-}
+  
+}*/
 
-.wrapper {
-  width: 100px;
-  height: 100px;
-  color: rgba(255, 255, 255, 0.5);
-  float: right;
-
-}
